@@ -1,0 +1,23 @@
+@import "common/tool";
+
+[i="my_index"]{
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+
+  .header{
+    width:100%;
+
+    .word{
+      background: -webkit-linear-gradient(left, #f00, #ff0 25%, #0f0 40%, #0ff 55%, #00f 70%, #f00);
+      -webkit-background-clip: text; /*只有webkit内核支持text的剪切模式*/
+      -webkit-text-fill-color: transparent;
+      font-size: pxTorem(72px);
+      font-weight: 900;
+      text-align: center;
+      margin-top: pxTorem(100px);
+    }
+
+  }
+}
